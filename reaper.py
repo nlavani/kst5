@@ -62,6 +62,7 @@ for i in introduction:
     time.sleep(3)
     print(i)
 input("")
+webbrowser.open(shortcut_url)
 
 # Start the scavenger hunt loop
 for mission in missions:
